@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import styles from './App.module.css';
-import Test from './Test.js';
-import { Title } from './Components';
-import Bootstrap from './Bootstrap';
-import Tailwind from './Tailwind';
-import "./tailwind.css"
+
+import './style.scss';
 
 
 function App() {
 
 
   return (
-    <div className={styles.App}>
-      <Title>{process.env.NODE_ENV}</Title>
-      <Title theme="dark">{process.env.NODE_ENV}</Title>
-      <img src="/logo512.png" className="App-logo" alt="logo" />
-      <Test />
-      <Bootstrap />
-      <Tailwind />
-      
-    </div>
+    <main>
+      <h1>App</h1>
+    </main>
   );
 }
 export default App;
