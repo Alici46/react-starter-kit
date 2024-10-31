@@ -6,8 +6,18 @@ function App() {
 
 
   return (
-    <main>
-      <h1>App</h1>
+    <main id="main">
+
+      <h1>App React</h1>
+      <label htmlFor='search'>Arama</label>
+      <input type='text' id='search' />
+      <ul>
+        {/* {todos.map((todo, index) => (
+          <li key={index}>
+            {todo}
+          </li>
+        ))} */}
+      </ul>
     </main>
   );
 }
