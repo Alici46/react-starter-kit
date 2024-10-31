@@ -3,6 +3,9 @@ import styles from './App.module.css';
 import Test from './Test.js';
 import { Title } from './Components';
 import Bootstrap from './Bootstrap';
+import Tailwind from './Tailwind';
+import "./tailwind.css"
+
 
 function App() {
 
@@ -14,6 +17,8 @@ function App() {
       <img src="/logo512.png" className="App-logo" alt="logo" />
       <Test />
       <Bootstrap />
+      <Tailwind />
+      
     </div>
   );
 }
